@@ -3,7 +3,7 @@ Make sure to install the react router to see it: https://www.npmjs.com/package/r
 
 **Concept**  
 HR App that allows to create the applicants, check and filter their data, as well as to reject them.
-The project is published in Githubpages: [Link](https://y-schulte.github.io/react-hr-app)
+The project is published in Github Pages: [Link](https://y-schulte.github.io/react-hr-app)
 
 **Features used**
 Dynamic Rooter, useEffect with multiple declarations, Hooks, localStorage to store data locally in the browser
