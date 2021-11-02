@@ -1,3 +1,5 @@
+// next todo: the data of users and dropdown lists can be stored in one data file (example here) and used across the app.  
+
 import React from "react";
 
 const users = [

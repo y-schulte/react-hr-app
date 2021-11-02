@@ -15,7 +15,7 @@ body,
   margin: 0;
 }
 
-/* 0. Navigtion */
+/* 0. Navigation */
 
 .navigation {
   display: flex;
@@ -86,6 +86,13 @@ nav li span {
   flex-direction: row;
 }
 
+@media only screen and (max-width: 600px) {
+  /* For mobile phones: */
+  .root {
+    flex-direction: column;
+  }
+}
+
 /* 1. Left side: Applicant Cards / appliocants.js */
 
 .avatar {
@@ -107,6 +114,18 @@ nav li span {
   flex-direction: column;
 }
 
+@media only screen and (max-width: 768px) and (min-width: 600px) {
+  .users {
+    width: 50vw;
+  }
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 769px) {
+  .users {
+    width: 40vw;
+  }
+}
+
 .users li a {
   text-decoration: none;
   color: inherit;
@@ -118,7 +137,6 @@ nav li span {
   display: flex;
   flex-direction: row;
   align-items: center;
-  width: 22vw;
   padding: 10px;
   border-radius: 10px;
   box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.2);
@@ -182,6 +200,15 @@ p {
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .root .display-applicants-overview {
+    width: 90vw;
+    justify-content: center;
+    margin: 20px;
+  }
 }
 
 .display-table-button {
